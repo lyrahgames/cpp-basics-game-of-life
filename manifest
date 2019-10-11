@@ -1,0 +1,11 @@
+: 1
+name: game-of-life
+version: 0.1.0-a.0.z
+summary: game-of-life C++ executable
+license: MIT
+description-file: README.md
+url: https://github.com/lyrahgames/cpp-basics-game-of-life
+email: markuspawellek@gmail.com
+depends: * build2 >= 0.10.0
+depends: * bpkg >= 0.10.0
+requires: sfml-graphics

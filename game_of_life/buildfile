@@ -1,0 +1,4 @@
+libs =
+import libs += lib{sfml-graphics}
+
+exe{game-of-life}: {hxx ixx txx cxx}{**} $libs
